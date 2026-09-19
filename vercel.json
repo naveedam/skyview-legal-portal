@@ -1,4 +1,9 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://script.google.com/macros/s/AKfycbzbNpK3qcvHi1-b1_zrlAl7P98OMYjkyOcyDc3QiFg69WRxkYWYvB_u4pv9Ls9K38Os/exec",
+      "permanent": false
+    }
+  ]
 }
